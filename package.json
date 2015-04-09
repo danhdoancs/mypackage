@@ -4,7 +4,7 @@
   "description": "My exercise package",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/daviddoan90/mypackage/issues"
   },
-  "homepage": "https://github.com/daviddoan90/mypackage"
+  "homepage": "https://github.com/daviddoan90/mypackage",
+  "dependencies": {
+    "once": "^1.3.0"
+  }
 }
